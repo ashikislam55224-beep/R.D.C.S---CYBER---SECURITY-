@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>R.D.C.S CYBER OFFICIAL</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+<style>
+body{
+margin:0;
+background:#050b14;
+font-family:'Orbitron',sans-serif;
+color:white;
+}
+.hero{
+background:url('poster.jpg');
+background-size:cover;
+padding:80px 20px;
+text-align:center;
+}
+.hero h1{color:#00ff9c;font-size:45px;}
+.hero p{color:#ff1e1e;font-size:20px;}
+
+.section{padding:40px;text-align:center;}
+.team{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+.card{
+background:#0b1a2a;
+border:2px solid #00ff9c;
+border-radius:15px;
+padding:15px;
+transition:0.3s;
+}
+.card:hover{box-shadow:0 0 20px #00ff9c;}
+.card img{width:100%;border-radius:10px;}
+
+footer{
+background:black;
+text-align:center;
+padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+<h1>R.D.C.S CYBER OFFICIAL</h1>
+<p>WE WORK TO PROTECT ISLAM & BANGLADESH</p>
+</div>
+
+<div class="section">
+<h2>Our Mission</h2>
+<p>R.D.C.S Cyber Official is a Bangladeshi cyber security & digital awareness team working to protect Islamic and national digital platforms.</p>
+</div>
+
+<div class="section">
+<h2>Official Team Members</h2>
+<div class="team">
+
+<div class="card"><img src="t1.jpg"><h3>Cyber Member 1</h3></div>
+<div class="card"><img src="t2.jpg"><h3>Cyber Member 2</h3></div>
+<div class="card"><img src="t3.jpg"><h3>Cyber Member 3</h3></div>
+<div class="card"><img src="t4.jpg"><h3>Cyber Member 4</h3></div>
+<div class="card"><img src="t5.jpg"><h3>Cyber Member 5</h3></div>
+<div class="card"><img src="t6.jpg"><h3>Cyber Member 6</h3></div>
+<div class="card"><img src="t7.jpg"><h3>Cyber Member 7</h3></div>
+<div class="card"><img src="t8.jpg"><h3>Cyber Member 8</h3></div>
+
+</div>
+</div>
+
+<div class="section">
+<h2>Contact</h2>
+<p>Email: rdcs.cyber@gmail.com</p>
+<p>Facebook | Telegram | GitHub</p>
+</div>
+
+<footer>
+<p>© 2026 R.D.C.S CYBER OFFICIAL</p>
+</footer>
+
+</body>
+</html>
